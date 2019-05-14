@@ -23,8 +23,11 @@ h2, h3 {
 }
 
 .container {
-  display: flex; /* or inline-flex */
-  justify-content: center;
+  display: -ms-flexbox;
+  display: flex;
+  /* or inline-flex */
+  -ms-flex-pack: center;
+      justify-content: center;
 }
 
 .trigger,
@@ -43,9 +46,12 @@ h2, h3 {
 }
 
 .trigger {
-  flex: 1;
+  -ms-flex: 1;
+      flex: 1;
 }
 
 .tweet {
-  flex: 1;
+  -ms-flex: 1;
+      flex: 1;
 }
+/*# sourceMappingURL=style.prefixed.css.map */
